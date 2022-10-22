@@ -29,13 +29,9 @@ public class main {
             System.out.println(resultado);
 
 
-        }else if(temperaturaOrigem == 3 && temperaturaDestino == 4){
-            double a = 273.15;
-            resultado = 273;
-            System.out.println(resultado-teclado);
+        } else if (temperaturaOrigem == 3 && temperaturaDestino == 4) {
+            double fd = valor + 273.15;
+            System.out.println(fd);
         }
     }
-    }
-
-
 }
